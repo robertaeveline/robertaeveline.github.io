@@ -1,0 +1,76 @@
+/* Contact Form */
+.submit-button {
+  width: 100%;
+  color: white;
+  background-color: black;
+  padding: 16px;
+}
+
+.submit-button:hover {
+  background-color: rgb(95, 95, 95);
+}
+
+/* Typography */
+.text-lighter {
+  font-weight: lighter;
+}
+
+.text-center {
+  text-align: center;
+}
+
+.social-icons {
+  font-size: 2em;
+}
+
+.hidden {
+  display: none;
+}
+
+/* Social Links */
+
+.instagram-link {
+  color: var(--instagram-color);
+}
+
+.instagram-link:hover {
+  color: var(--instagram-hover-color);
+}
+
+.whatsapp-link {
+  color: var(--whatsapp-color);
+}
+
+.whatsapp-link:hover {
+  color: var(--whatsapp-hover-color);
+}
+
+.google-maps-link {
+  color: var(--google-maps-color);
+}
+
+.google-maps-link:hover {
+  color: var(--google-maps-hover-color);
+}
+
+/* FOOTER */
+
+.site-footer {
+  position: relative;
+  padding: 1rem 0;
+  font-family: "Open Sans", sans-serif;
+  font-size: 1.3rem;
+  line-height: 1.5em;
+  color: #bbc7cc;
+  text-align: center;
+  background: #22343a;
+}
+
+.site-footer a {
+  color: #bbc7cc;
+  text-decoration: underline;
+}
+
+.site-footer a:hover {
+  color: #50585d;
+}

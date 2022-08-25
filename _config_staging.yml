@@ -1,0 +1,8 @@
+baseurl: ""
+host: 0.0.0.0
+port: 8080
+branch: staging
+deploy:
+  source: git@github.com:evelyn/evelyn.github.io.git
+  branch: staging
+  dir: _staging

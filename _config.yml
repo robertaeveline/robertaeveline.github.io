@@ -1,0 +1,28 @@
+title: Evelyn
+author: evelyn
+email: tbd@tbd.com
+description: >-
+  Short description
+keywords: wip
+deploy:
+  source: git@github.com:evelyn/evelyn.github.io.git
+  branch: live
+  dir: _production
+
+url: "https://evelyn.nl"
+
+plugins:
+  - jekyll-menus
+
+# Build settings
+defaults:
+  - scope:
+      path: "" # an empty string here means all files in the project
+    values:
+      layout: "default" # this ensures all content renders with layouts/default.html
+
+exclude:
+  - README.md
+  - Rakefile
+  - Gemfile
+  - _deploy
