@@ -1,0 +1,25 @@
+<section class="section-bg-white p-5" id="{{ section.slug | slugify }}">
+    <div class="row">
+        <div class="col-sm-4">
+            <h1 class="dark">{{ section.left.title }}</h1>
+            <p class="dark">{{ section.left.description }}</p>
+            {% if section.left.link.url %}
+            <div class="row">
+                <a class="btn btn-cta btn-left" href="{{ section.left.link.url }}">{{ section.left.link.title }}</a>            
+            </div>            
+            {% endif %}
+        </div>
+        <div class="col-sm-4 text-center d-flex align-items-center">
+            <img class="img-fluid mx-auto d-block" src="/uploads/images/{{ section.picture_name }}" width="350px">
+        </div>
+        <div class="col-sm-4">
+            <h1 class="dark">{{ section.right.title }}</h1>
+            <p class="dark">{{ section.right.description }}</p>
+            {% if section.right.link.url %}
+            <div class="row">
+                <a class="btn btn-cta btn-right" href="{{ section.right.link.url }}">{{ section.right.link.title }}</a>            
+            </div>
+            {% endif %}
+        </div>
+    </div>
+</section>

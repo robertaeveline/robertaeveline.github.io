@@ -1,0 +1,11 @@
+<section class="section-bg-dark mt-2 text-white rounded-top" id="{{ section.slug | slugify }}">
+    <div class="row">
+        <div class="col-sm text-center p-5">
+            <h5 class="text-uppercase">{{ section.above_title }}</h3>
+            <h1 class="text-uppercase">{{ section.title }}</h1>
+            <p class="font-italic font-weight-lighter">{{ section.subtitle }}</p>
+            <p class="font-weight-lighter">{{ section.description }}</p>
+            <a class="btn btn-cta" href="#{{ section.action.link }}">{{ section.action.title }}</a>
+        </div>        
+    </div>
+</section>
