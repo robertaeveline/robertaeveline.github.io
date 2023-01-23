@@ -9,7 +9,8 @@ deploy:
   branch: production
   dir: _production
 
-url: https://rb-evelyn.github.io/evelyn.github.io/
+baseurl: /
+url: https://rb-evelyn.github.io/evelyn.github.io
 
 plugins:
   - jekyll-menus
@@ -26,3 +27,4 @@ exclude:
   - Rakefile
   - Gemfile
   - _deploy
+  - vendor
