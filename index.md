@@ -65,7 +65,8 @@ page_sections:
     success: Sua mensagem foi enviada com sucesso.
     failure: "Ops! Ocorreu um problema, você pode enviar a mensagem para este e-mail: eve@lyne.com"
     action_url: https://formspree.io/f/xgebvyao
-  - template: info
-    crp: Psicóloga Roberta Eveline - CRP 11/16290
+  - template: info  
+    slug: footer
     block: template-info
+    crp: Psicóloga Roberta Eveline - CRP 11/16290
 ---

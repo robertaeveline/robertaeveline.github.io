@@ -5,11 +5,11 @@ description: >-
   Short description 
 keywords: wip
 deploy:
-  source: git@github.com:evelyn/evelyn.github.io.git
-  branch: live
+  source: git@github.com:rb-evelyn/evelyn.github.io.git
+  branch: production
   dir: _production
 
-url: "https://"
+url: https://rb-evelyn.github.io/evelyn.github.io/
 
 plugins:
   - jekyll-menus
