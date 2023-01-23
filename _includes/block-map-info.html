@@ -1,29 +1,36 @@
 <section class="section-bg-dark text-white rounded-bottom" id="{{ section.slug | slugify }}">
     <div class="row justify-content-center g-0">
         <div class="col-sm-6 map">
-            <iframe class="embed-responsive-item w-100 h-100"
-                src="{{ section.address.embedded_url }}"
-                loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+            <iframe class="embed-responsive-item w-100 h-100" src="{{ section.address.embedded_url }}" loading="lazy"
+                referrerpolicy="no-referrer-when-downgrade"></iframe>
         </div>
         <div class="col-sm-6 bg-white p-5">
-            <h1 class="dark text-uppercase">{{ section.title }}</h1>
+            <h1 class="dark">{{ section.title }}</h1>
             <p class="dark mt-5">{{ section.description }}</p>
+            <h5 class="dark">{{ section.address.name }}</h5>
             <a href="{{ section.address.gmaps_url }}" target="_blank">
                 <p class="dark">
-                    {{ section.address.street_number }}
+                    {{ section.address.street }}
+                    <br />
+                    {{ section.address.building }}
+                    <br />
+                    {{ section.address.district }}
                     <br />
                     {{ section.address.city}}
                 </p>
             </a>
             <p class="dark mt-5">
                 {% if section.whatsapp %}
-                <a class="whatsapp-link" href="https://wa.me/{{ section.whatsapp }}" target="_blank"><i class="fab fa-whatsapp"> {{ section.whatsapp }}</i></a><br/>
+                <a class="whatsapp-link" href="https://wa.me/{{ section.whatsapp }}" target="_blank"><i
+                        class="fab fa-whatsapp"> {{ section.whatsapp }}</i></a><br />
                 {% endif %}
                 {% if section.phone %}
-                <a class="number-link" href="tel:{{ section.phone }}" target="_blank"><i class="fas fa-phone"></i> {{ section.phone }}</a><br />
+                <a class="number-link" href="tel:{{ section.phone }}" target="_blank"><i class="fas fa-phone"></i> {{
+                    section.phone }}</a><br />
                 {% endif %}
                 {% if section.email %}
-                <a class="number-link" href="mailto:{{ section.email }}" target="_blank"><i class="far fa-envelope"></i> {{ section.email }}</a><br />
+                <a class="number-link" href="mailto:{{ section.email }}" target="_blank"><i class="far fa-envelope"></i>
+                    {{ section.email }}</a><br />
                 {% endif %}
             </p>
         </div>

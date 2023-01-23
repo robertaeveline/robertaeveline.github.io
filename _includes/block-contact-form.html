@@ -1,0 +1,49 @@
+<section class="section-bg-dark text-white rounded-bottom" id="{{ section.slug | slugify }}">
+  <div class="row justify-content-center g-0">
+    <div class="col-sm-2"></div>
+    <div class="col-sm-8 mt-5 mb-5">
+      <div class="row justify-content-center p-2 g-0">
+        <h1 class="text-center p-2">{{ section.title }}</h1>
+        <form id="contact-form" action="{{ section.action_url }}" method="POST">
+          <!-- Helper messages -->
+          <div id="contact-form-success-message" class="hidden">{{ section.success }}</div>
+          <div id="contact-form-failure-message" class="hidden">{{ section.failure }}</div>
+          <!-- Fields -->
+          <div class="row mb-2">
+            <div class="col">
+              <div class="input-group mb-3">
+                <div class="input-group-prepend">
+                  <span class="input-group-text">{{ section.name }}</span>
+                </div>
+                <input type="text" class="form-control" id="contact-form-name" name="name" placeholder="Seu nome" aria-label="Nome">
+              </div>
+            </div>
+            <div class="col">
+              <div class="input-group mb-3">
+                <div class="input-group-prepend">
+                  <span class="input-group-text">{{ section.email }}</span>
+                </div>
+                <input type="email" class="form-control" id=contact-form-email" name="email" placeholder="Seu email@email.com" aria-label="Email">
+              </div>
+            </div>
+          </div>
+          <div class="input-group mb-3">
+            <div class="input-group-prepend">
+              <span class="input-group-text">{{ section.subject }}</span>
+            </div>
+            <input type="text" class="form-control" id="contact-form-subject" name="subject" placeholder="Perguntas sobre a terapia?">            
+          </div>
+          <div class="input-group">
+            <textarea id="contact-form-message" name="message" class="form-control" rows="3" aria-label="With textarea" placeholder="{{ section.message }}"></textarea>
+          </div>                    
+          <div class="row g-0 mt-2">
+            <button id="contact-form-button" type="submit" class="btn btn-cta btn-block">{{
+            section.submit }}</button>
+          </div>
+          <small id="contact-form-status" class="form-text text-white"></small>
+        </form>
+      </div>
+    </div>
+    <div class="col-sm-2"></div>
+  </div>
+</section>
