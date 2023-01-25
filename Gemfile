@@ -11,6 +11,8 @@ group :jekyll_plugins do
   gem 'kramdown-parser-gfm', '1.1.0'
   gem 'jekyll-menus', '0.6.1'
   gem 'github-pages', '227'
+  gem 'jekyll-seo-tag', '2.8.0'
+  gem 'jekyll-sitemap', '1.4.0'
 end
 
 group :development do

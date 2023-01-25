@@ -1,19 +1,37 @@
-title: Evelyn
-author: evelyn
-email: tbd@tbd.com
+title: Psicóloga Roberta Eveline
+tagline: >-
+  Bem-vindo ao website da psicóloga Roberta Eveline. Oferecemos serviços de terapia e aconselhamento para ajudar na sua jornada de saúde mental.
+author: Roberta Eveline
+email: contact@robertaeveline.com
+lang: pt-BR
+logo: /uploads/images/logo.png
 description: >-
-  Short description 
-keywords: wip
+  Bem-vindo ao website da psicóloga Roberta Eveline. Oferecemos serviços de terapia e aconselhamento
+  para ajudar na sua jornada de saúde mental. Com anos de experiência, estamos prontos para ajudá-lo a
+  alcançar seus objetivos e melhorar sua qualidade de vida.
+  Entre em contato conosco para marcar sua consulta.
+keywords: psicóloga, psicologia, terapia, terapia cognitiva comportamental, saúde mental, aconselhamento
+cover_image: /uploads/images/side_profile.jpeg
+social:
+  name: Roberta Eveline
+  links:
+    - https://www.doctoralia.com.br/roberta-eveline/psicologo/fortaleza
+    - https://www.linkedin.com/in/roberta-eveline-154483203
+google_site_verification: WIP
+webmaster_verifications:
+  google: 1234
 deploy:
-  source: git@github.com:rb-evelyn/evelyn.github.io.git
+  source: git@github.com:rb-evelyn/rb-evelyn.github.io.git
   branch: production
   dir: _production
 
 baseurl: /
-url: https://rb-evelyn.github.io/evelyn.github.io
+url: https://rb-evelyn.github.io
 
 plugins:
   - jekyll-menus
+  - jekyll-seo-tag
+  - jekyll-sitemap
 
 # Build settings
 defaults:
