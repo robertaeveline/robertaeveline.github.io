@@ -50,9 +50,9 @@ page_sections:
       embedded_url: https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3372.163008703495!2d-38.55610560041594!3d-3.733780744422723!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x7c74977d3307a9f%3A0xea3bbc5c361cba01!2sAv.%20Bezerra%20de%20Menezes%2C%201250%20-%20S%C3%A3o%20Gerardo%2C%20Fortaleza%20-%20CE%2C%2060325-001%2C%20Brazil!5e0!3m2!1sen!2snl!4v1673985423250!5m2!1sen!2snl
       city: Fortaleza-CE
       gmaps_url: https://goo.gl/maps/wjZDNtxtUFPbia4u9
-    whatsapp: 123123123123
-    phone: 123123132
-    email: eve@lyne.com
+    whatsapp:
+    phone:
+    email: contato@robertaeveline.com
   - template: contact-form
     block: contact-form
     slug: contact
@@ -63,7 +63,7 @@ page_sections:
     message: Escreva sua pergunta para mim
     submit: Enviar
     success: Sua mensagem foi enviada com sucesso.
-    failure: "Ops! Ocorreu um problema, você pode enviar a mensagem para este e-mail: eve@lyne.com"
+    failure: "Ops! Ocorreu um problema, você pode enviar a mensagem para este e-mail: contato@robertaeveline.com"
     action_url: https://formspree.io/f/xdovanjb
   - template: info
     slug: footer
