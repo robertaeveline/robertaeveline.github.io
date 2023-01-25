@@ -7,7 +7,7 @@ page_sections:
     slug: home
     above_title: Psicologia Clínica
     title: Roberta Eveline
-    subtitle: "psicóloga altamente qualificada e experiente, formada pela renomada Universidade Federal do Ceará (UFC) e registrada no Conselho Regional de Psicologia com o número 11/16290. Além de sua formação básica, ela possui uma formação complementar em saúde mental de mulheres, especialmente no contexto de violência doméstica familiar. Com anos de experiência clínica, a psicologa Eveline tem um vasto conhecimento em transtornos fóbicos, transtornos depressivos, transtorno obsessivo-compulsivo (TOC), relações abusivas e orientação profissional, permitindo-lhe oferecer aos seus pacientes um atendimento personalizado e eficaz. Se você está procurando por ajuda e suporte confiáveis, a Roberta Eveline é a escolha certa para você.
+    subtitle: "psicóloga altamente qualificada e experiente, formada pela renomada Universidade Federal do Ceará (UFC) e registrada no Conselho Regional de Psicologia com o número 11/16290. Além de sua formação básica, ela possui uma formação complementar em saúde mental de mulheres, especialmente no contexto de violência doméstica familiar. Com anos de experiência clínica, a psicóloga Eveline tem um vasto conhecimento em transtornos fóbicos, transtornos depressivos, transtorno obsessivo-compulsivo (TOC), relações abusivas e orientação profissional, permitindo-lhe oferecer aos seus pacientes um atendimento personalizado e eficaz. Se você está procurando por ajuda e suporte confiáveis, a Roberta Eveline é a escolha certa para você.
     Agende sua sessão agora e dê o primeiro passo para alcançar a saúde mental e bem-estar!"
     action:
       title: Quero agendar
