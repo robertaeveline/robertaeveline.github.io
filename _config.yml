@@ -21,12 +21,12 @@ google_site_verification: WIP
 webmaster_verifications:
   google: 1234
 deploy:
-  source: git@github.com:rb-evelyn/rb-evelyn.github.io.git
+  source: git@github.com:robertaeveline/robertaeveline.github.io.git
   branch: production
   dir: _production
 
 baseurl: /
-url: https://rb-evelyn.github.io
+url: https://robertaeveline.com
 
 plugins:
   - jekyll-menus
