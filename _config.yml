@@ -25,6 +25,7 @@ deploy:
   branch: production
   dir: _production
 
+baseurl: /
 url: https://robertaeveline.com
 
 plugins:
