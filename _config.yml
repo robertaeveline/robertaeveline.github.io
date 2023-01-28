@@ -17,9 +17,6 @@ social:
   links:
     - https://www.doctoralia.com.br/roberta-eveline/psicologo/fortaleza
     - https://www.linkedin.com/in/roberta-eveline-154483203
-google_site_verification: WIP
-webmaster_verifications:
-  google: 1234
 deploy:
   source: git@github.com:robertaeveline/robertaeveline.github.io.git
   branch: production
@@ -30,7 +27,6 @@ url: https://robertaeveline.com
 
 plugins:
   - jekyll-menus
-  - jekyll-seo-tag
   - jekyll-sitemap
 
 # Build settings
