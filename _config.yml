@@ -17,6 +17,9 @@ social:
   links:
     - https://www.doctoralia.com.br/roberta-eveline/psicologo/fortaleza
     - https://www.linkedin.com/in/roberta-eveline-154483203
+google_analytics:
+  id: G-R21EK8G9XP
+  anonymize_ip: true       # GDPR complaint
 deploy:
   source: git@github.com:robertaeveline/robertaeveline.github.io.git
   branch: production
